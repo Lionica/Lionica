@@ -279,7 +279,16 @@ p {
 }
 
 .music-feeling {
-  padding: 40px 25px;
+  padding: 60px 25px;
+}
+
+@media(min-width: 700px) {
+  .music-feeling {
+    margin: 0 auto;
+    padding: 75px 25px;
+    max-width: 815px;
+    text-align: left;
+  }
 }
 
 .music-feeling__title {
@@ -289,14 +298,6 @@ p {
   font-size: 28px;
   color: #FFFFFF;
   letter-spacing: 0.5px;
-}
-
-@media(min-width: 700px) {
-  .music-feeling {
-    margin: 0 auto;
-    max-width: 815px;
-    text-align: left;
-  }
 }
 
 .dark-bg {
