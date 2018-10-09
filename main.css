@@ -127,7 +127,7 @@ p {
 }
 
 .sub-heading {
-  font-family: 'GT-America-Standard-thin';
+  font-family: 'GT-America-Standard-light';
   font-size: 18px;
   font-weight: 200;
   color: #FFFFFF;
@@ -151,7 +151,7 @@ p {
 }
 
 .learn-more__text {
-  font-family: 'GT-America-Standard-thin';
+  font-family: 'GT-America-Standard-light';
   font-size: 12px;
   font-weight: 200;
   color: #FFFFFF;
@@ -172,4 +172,8 @@ p {
 
 .music-feeling {
   padding: 40px 25px;
+}
+
+.comming-soon {
+  font-family: 'GT-America-Standard-Bold';
 }

@@ -39,7 +39,9 @@
           Maybe, it’s not goodbye
         </h1>
         <p class="sub-heading">
-          A song about love, loss and the hope for redemption. Take a moment to groove, smile and hopefully find a little joy in your life.
+          A song about love, loss and the hope for redemption. Take a moment to
+          groove, smile and hopefully find a little joy in your life.
+          <span class="comming-soon"></span>
         </p>
         <div class="learn-more">
           <p class="learn-more__text">
@@ -90,7 +92,15 @@
         loop: true,
       }
 
+      var commingSoon = {
+        strings: ["This song is comming soon!"],
+        typeSpeed: 120,
+        backSpeed: 60,
+        loop: true,
+      }
+
       var typed = new Typed(".element", options);
+      var CommingSoon = new Typed(".element", commingSoon);
     </script>
   </body>
 </html>
