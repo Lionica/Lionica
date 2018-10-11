@@ -314,7 +314,7 @@ p {
 .dark-bg {
   background: #232228;
   background-image: url("images/chris-lines-530914-unsplash.jpg");
-  background-attachment: fixed;
+
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -323,10 +323,42 @@ p {
 
 @media(min-width: 700px) {
   .dark-bg {
+    background-attachment: fixed;
     background-position: initial;
   }
 }
 
 .comming-soon {
   font-family: 'GT-America-Standard-Bold';
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px
+}
+
+@media(min-width: 700px) {
+  .connect {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.connect__header {
+  margin: 0;
+  font-family: 'GT-Super-Display';
+  line-height: 62px;
+  font-size: 62px;
+  color: #5A5A66;
+  letter-spacing: 0.5px;
+}
+
+@media(min-width: 700) {
+  .connect {
+    width: 30%
+
+  }
 }
