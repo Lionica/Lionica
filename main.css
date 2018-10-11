@@ -109,7 +109,7 @@ h1  {
 
 p {
   font-family: 'GT-America-Standard-Light';
-  font-size: 14px;
+  font-size: 16px;
   color: #232228;
   letter-spacing: 0.13px;
   line-height: 26px;
@@ -278,14 +278,18 @@ p {
   }
 }
 
+.our-story__content {
+  font-size: 16px
+}
+
 .music-feeling {
-  padding: 60px 25px;
+  padding: 75px 25px 200px 25px;
 }
 
 @media(min-width: 700px) {
   .music-feeling {
     margin: 0 auto;
-    padding: 75px 25px;
+    padding: 75px 25px 200px 25px;
     max-width: 815px;
     text-align: left;
   }
@@ -294,14 +298,33 @@ p {
 .music-feeling__title {
   margin: 0;
   font-family: 'GT-Super-Display';
-  line-height: 38px;
-  font-size: 28px;
+  line-height: 62px;
+  font-size: 62px;
   color: #FFFFFF;
   letter-spacing: 0.5px;
 }
 
+@media(min-width: 700px) {
+  .music-feeling__title {
+    line-height: 78px;
+    font-size: 78px;
+  }
+}
+
 .dark-bg {
   background: #232228;
+  background-image: url("images/chris-lines-530914-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+@media(min-width: 700px) {
+  .dark-bg {
+    background-position: initial;
+  }
 }
 
 .comming-soon {
